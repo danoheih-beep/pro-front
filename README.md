@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+MindTrack
+Project Idea and Purpose
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MindTrack is a web application created to help people track their mental and emotional state. The main idea of the project is to give users a simple way to understand how they feel during the day and become more aware of their mood, energy and mental condition. This project is part of a semester-long React SPA application and will be developed step by step throughout the course.
 
-## Available Scripts
 
-In the project directory, you can run:
+Target Audience
 
-### `npm start`
+The application is designed for students, young professionals and people who experience mental workload in their daily life. It is also useful for users who are interested in self-development, productivity and mental health awareness.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Problem the Application Solves
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Many people do not pay attention to their mental and emotional state and often ignore stress and fatigue. This can lead to burnout, low productivity and emotional exhaustion. The application helps users become more aware of their condition and encourages them to reflect on how they feel every day.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+MVP Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The minimum version of the project includes a main page, basic interface structure, SPA architecture and component-based layout. The project has a clean structure, reusable components and is prepared for further development during the semester.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+SPA Theory Questions
+What is a Single Page Application (SPA)?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A Single Page Application is a web application that works on one single page in the browser. The content is updated dynamically without reloading the whole page. This makes the application faster and smoother to use. The user does not need to wait for new pages to load. Everything works inside one interface. This creates a better user experience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+How does SPA differ from traditional Multi-Page Applications (MPA)?
 
-## Learn More
+In Multi-Page Applications, each action loads a new page from the server. This means the browser refreshes the page every time the user clicks something. In SPA, the page does not reload, and only the content changes. SPA is faster and more interactive. MPA is usually slower and depends more on the server. SPA gives a more modern and app-like experience.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+What is the Virtual DOM?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The Virtual DOM is a copy of the real DOM that React uses to manage updates. Instead of changing the real page directly, React updates the Virtual DOM first. Then it compares the changes and updates only the necessary parts. This makes the application faster. It also improves performance. The Virtual DOM helps React work efficiently.
 
-### Code Splitting
+Why does React use a component-based architecture?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React uses components to divide the application into small parts. Each component has its own logic and structure. This makes the code easier to understand and maintain. Components can be reused in different parts of the project. It also helps organize the project better. This approach makes development more structured and scalable.
