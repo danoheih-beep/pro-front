@@ -1,12 +1,8 @@
-import React from "react";
-import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
+import "./App.css";
 
 function App() {
-  return (
-    <div>
-      <Home />
-    </div>
-  );
+  return <Dashboard />;
 }
 
 export default App;

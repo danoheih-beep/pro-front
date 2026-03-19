@@ -1,13 +1,8 @@
-import React from "react";
-import "../styles/main.css";
-
-function Header() {
+export default function Header() {
   return (
-    <header className="header">
-      <h1>MindTrack</h1>
-      <p>Digital Mental State Tracker</p>
-    </header>
+    <div>
+      <h2>Welcome back! 👋</h2>
+      <p className="subtitle">How are you feeling today?</p>
+    </div>
   );
 }
-
-export default Header;
