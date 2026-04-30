@@ -1,0 +1,93 @@
+{
+  "entries": [
+    {
+      "id": "1",
+      "mood": "😊",
+      "title": "Good Morning",
+      "text": "Today I felt productive and calm.",
+      "date": "2026-04-30 10:00",
+      "username": "Indira"
+    },
+    {
+      "id": "2",
+      "mood": "😐",
+      "title": "Normal Day",
+      "text": "Nothing special happened, just a regular day.",
+      "date": "2026-04-29 18:30",
+      "username": "Aruzhan"
+    },
+    {
+      "mood": "😊",
+      "title": "Happy Monday",
+      "text": "rfrfv",
+      "date": "30.04.2026, 13:15:59",
+      "username": "Diko",
+      "id": "UFz2dZ7PPPQ"
+    },
+    {
+      "mood": "😊",
+      "title": "fff",
+      "text": "ff",
+      "date": "30.04.2026, 13:16:20",
+      "username": "Viktor",
+      "id": "rfMDFQ2iTdU"
+    },
+    {
+      "mood": "😐",
+      "title": "в",
+      "text": "в",
+      "date": "30.04.2026, 13:22:30",
+      "username": "в",
+      "id": "IGDP8PJ8I4Q"
+    },
+    {
+      "mood": "😊",
+      "title": "пп",
+      "text": "ппп",
+      "date": "30.04.2026, 13:22:46",
+      "username": "в",
+      "id": "f6uEXwEL7xU"
+    },
+    {
+      "mood": "😢",
+      "title": "Sad Thursday",
+      "text": "I was sick",
+      "date": "30.04.2026, 14:06:05",
+      "username": "Diko",
+      "id": "gjgh6p963Jw"
+    },
+    {
+      "mood": "😊",
+      "title": "d",
+      "text": "d",
+      "date": "30.04.2026, 16:16:00",
+      "username": "Indira",
+      "id": "Dith1D1eLZA"
+    },
+    {
+      "mood": "😐",
+      "title": "gdhx",
+      "text": "edef",
+      "date": "30.04.2026, 16:19:07",
+      "username": "Aikumis",
+      "id": "1ibdE_1fG3E"
+    },
+    {
+      "mood": "😊",
+      "title": "Happy Thursday",
+      "text": "efew",
+      "date": "30.04.2026, 17:43:38",
+      "username": "Ii",
+      "id": "-WRPs0FH-jc"
+    },
+    {
+      "mood": "😐",
+      "title": "efefef",
+      "text": "fef",
+      "date": "30.04.2026, 17:43:53",
+      "username": "Ii",
+      "id": "zjcBqnoBXL0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

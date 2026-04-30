@@ -411,3 +411,48 @@ textarea, .form-input {
   color: #475569;
   margin: 0;
 }
+
+.subnav {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.subnav a {
+  text-decoration: none;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.subnav a.active {
+  color: #6366f1;
+}
+
+.subnav {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.subnav a {
+  text-decoration: none;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.subnav a.active {
+  color: #6366f1;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

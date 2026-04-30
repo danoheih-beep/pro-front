@@ -7,8 +7,8 @@ export default function EntriesList({ entries, onDelete }) {
         <p className="no-data">No matching entries found</p>
       ) : (
         <div className="entries">
-          {entries.map((e) => (
-            <EntryCard key={e.id} entry={e} onDelete={onDelete} />
+          {entries.map((entry) => (
+            <EntryCard key={entry.id} entry={entry} onDelete={onDelete} />
           ))}
         </div>
       )}
